@@ -1,0 +1,133 @@
+            a {
+                display: block;
+            }
+            
+            a::before {
+                font-family: FontAwesome;
+                display: inline-block;
+            }
+            
+            #x0::before {
+                content: "\f095";
+            }
+            
+            #x1::before {
+                content: "\f095\20"
+            }
+            
+            #x2::before {
+                content: "\f095\a0"
+            }
+            
+            #x3::before {
+                content: "\f095\2002"
+            }
+            
+            #x4::before {
+                content: "\f095\2003"
+            }
+            
+            #x5::before {
+                content: "\f095\2004"
+            }
+            
+            #x6::before {
+                content: "\f095\2005"
+            }
+            
+            #x7::before {
+                content: "\f095\2006"
+            }
+            
+            #x8::before {
+                content: "\f095\2007"
+            }
+            
+            #x9::before {
+                content: "\f095\2008"
+            }
+            
+            #xa::before {
+                content: "\f095\2009"
+            }
+            
+            #xb::before {
+                content: "\f095\200a"
+            }
+            
+            #xc::before {
+                content: "\f095\200b"
+            }
+            
+            #xd::before {
+                content: "\f095\202f"
+            }
+            
+            #xe::before {
+                content: "\f095\205f"
+            }
+            
+            #xf::before {
+                content: "\f095\feff"
+            }
+            
+            #x0::after {
+                content: "\a0\a0\"
+
+            }
+            
+            #x1::after {
+                content: "\a0\a0\\20"
+            }
+            
+            #x2::after {
+                content: "\a0\a0\\a0"
+            }
+            
+            #x3::after {
+                content: "\a0\a0\\2002"
+            }
+            
+            #x4::after {
+                content: "\a0\a0\\2003"
+            }
+            
+            #x5::after {
+                content: "\a0\a0\\2004"
+            }
+            
+            #x6::after {
+                content: "\a0\a0\\2005"
+            }
+            
+            #x7::after {
+                content: "\a0\a0\\2006"
+            }
+            
+            #x8::after {
+                content: "\a0\a0\\2007"
+            }
+            
+            #x9::after {
+                content: "\a0\a0\\2008"
+            }
+            
+            #xa::after {
+                content: "\a0\a0\\2009"
+            }
+            
+            #xb::after {
+                content: "\a0\a0\\200a"
+            }
+            
+            #xc::after {
+                content: "\a0\a0\\200b"
+            }
+            
+            #xd::after {
+                content: "\a0\a0\\202f"
+            }
+            
+            #xe::after {
+                content: \"\a0\a0\\205f"
+            }

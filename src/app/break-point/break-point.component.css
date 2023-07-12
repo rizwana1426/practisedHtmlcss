@@ -1,0 +1,71 @@
+/* 
+.example {
+    padding: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .example {
+        background: red;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .example {
+        background: green;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .example {
+        background: blue;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .example {
+        background: pink;
+    }
+} */
+
+
+/* 
+body {
+    background-color: lightgreen;
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+} */
+
+
+/*  
+div.example {
+    background-color: yellow;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    div.example {
+        display: none;
+    }
+}*/
+
+div.example {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    div.example {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.example {
+        font-size: 30px;
+    }
+}

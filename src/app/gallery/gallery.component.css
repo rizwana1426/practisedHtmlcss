@@ -1,0 +1,73 @@
+/* 
+.gallery{
+border:1px solid black;
+
+margin-left: 25px;
+width: 200px;
+float: left; 
+}
+
+.gallery:hover{
+    background-color: cadetblue;
+    border:3px dashed chartreuse;
+}
+.gallery img {
+    width: 200px;
+    padding:5px 0px;
+}
+div.text{
+ padding: 15px;
+ text-align: center;
+ background-color: cornflowerblue;
+ color: black;
+}*/
+/*  
+#home{
+    width: 80px;
+    height:80px ;
+    background:url(https://getintopc.com/softwares/internet-download-manager-idm-6-27-free-download);
+}
+#home1{
+    width: 80px;
+    height:80px ;
+    background:url(https://play.google.com/store/apps/details?id=org.freedownloadmanager.fdm&hl=en&gl=US)
+}*/
+/* Image Sprites - Hover Effect */
+#nav{
+    position: relative;
+}
+#nav li , #nav a{
+    height: 150px;
+    width: 200px;
+    list-style-type: none;
+    position: absolute;
+    display: block;
+}
+
+#home{
+    
+    background: url(https://getintopc.com/softwares/internet-download-manager-idm-6-27-free-download)15 15;
+}
+  
+#data{
+    width: 50px;
+    height: 100px;
+    background: url(https://play.google.com/store/apps/details?id=org.freedownloadmanager.fdm&hl=en&gl=US)20 20;
+   
+}
+#home:hover{
+    border: 2px solid green;
+    box-shadow:15px 2px 13px 15px  darkorchid;
+    background-color: darkgray;
+    max-width: 100px;
+   padding-bottom: 0px;
+   /* background-size: cover; */
+}
+#data:hover{
+    border: 2px solid green;
+    box-shadow:15px 2px 13px 15px  darkorchid;
+    background-color: darkgray;
+    max-width: 100px;
+   padding-bottom: 0px;
+}
+

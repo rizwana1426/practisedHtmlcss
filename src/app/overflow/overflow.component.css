@@ -1,0 +1,50 @@
+p{
+    background-origin: padding-box;
+   background-color: rgb(226, 226, 238) ;
+   border: 1px solid rgb(15, 17, 17) ;
+   overflow-x:visible;
+   overflow-y: visible;
+   margin-right: 500px;
+   font-size: 20px; 
+   height: 200px;
+   width: 200px;
+
+}
+
+p.c{
+    background-origin: padding-box;
+   background-color: rgb(226, 226, 238) ;
+   border: 1px solid rgb(15, 17, 17) ;
+   overflow-x:scroll ;
+   overflow-y: scroll;
+   margin-right: 500px;
+   font-size: 20px; 
+   height: 200px;
+   width: 200px;
+   
+}
+p.c1{
+    background-origin: padding-box;
+   background-color: rgb(226, 226, 238) ;
+   border: 1px solid rgb(15, 17, 17) ;
+   overflow:visible;
+   margin-right: 500px;
+   font-size: 20px; 
+   height: 200px;
+   width: 200px;
+}
+
+p.c2{
+    background-origin: padding-box;
+   background-color: rgb(226, 226, 238) ;
+   border: 1px solid rgb(15, 17, 17) ;
+   overflow:hidden;
+   margin-right: 500px;
+   font-size: 20px; 
+   height: 200px;
+   width: 200px;
+}
+
+div{
+    font-size: 20px;
+}

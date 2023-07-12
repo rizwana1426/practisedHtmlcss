@@ -1,0 +1,322 @@
+<!-- HTML table format1 -->
+<!-- HTML table format2 -->
+
+<!-- HTML table format1 -->
+<!--
+<html>
+ <head>
+  <style>
+    table,td,th{
+      font-family:'Times New Roman', Times, serif;
+      border-collapse: collapse;
+      width:10%;
+      border: 6px solid blue;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+    <h2>HTML Table</h2>
+  <table>
+    <tr>
+        <th>s.no</th>
+        <th>name</th>
+        <th>percentage</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>h1</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>h2</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>h3</td>
+        <td>60</td>
+    </tr>
+  </table>
+ </body>
+</html>-->
+
+<!-- HTML table format2 -->
+<!--
+<html>
+  <head>
+
+    <style>
+        table{
+          font-family:'Times New Roman', Times, serif;
+          border-collapse: collapse;
+          width:70%;
+        }
+        td,th{
+            border:6px solid rgb(25, 20, 95);
+            text-align: center;
+            padding: 20px;
+        }
+        tr:nth-child(odd){
+        background-color: rgb(233, 216, 216);
+        }
+    </style>
+    </head>
+    <body>
+        <h2>HTML Table</h2>
+    <table>
+        <tr>
+            <th>s.no</th>
+            <th>name</th>
+            <th>percentage</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>h1</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>h2</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>h3</td>
+            <td>60</td>
+        </tr>
+    </table>
+  </body>
+</html> -->  
+
+<!--HTML coloumn span -->
+<!--
+<html>
+<head>
+  <style>
+    table td,th{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: 1px solid black;
+    
+    width: 20%;
+    height:200%;
+    text-align: center;
+    padding:20px
+    }
+    td,th{ 
+      border-collapse: collapse;
+    }
+  </style>
+  </head>
+<body>
+<table>
+  <tr>
+    <th>name</th>
+    <th colspan="3"> percentage </th>
+  </tr>
+  <tr>
+    <td>riz</td>
+    <td>55</td>
+    <td>65</td>
+    <td>45</td>
+  </tr>
+</table>
+</body>
+
+</html>-->
+
+<!--HTML row span -->
+<!--
+<html>
+<head>
+  <style>
+    table, th,td{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 20%;
+    height:200%;
+    text-align: center;
+    padding:20px
+    }
+  </style>
+</head>
+
+<body>
+ <table>
+  <tr>
+    <th>name</th>
+    <td>riz</td>
+   </tr>
+  <tr>
+    <th rowspan="4">percentage</th>
+  </tr>
+  <tr>
+    <td>55</td>
+  <td>55</td>
+  <td>65</td>
+  <td>45</td>
+  </tr>
+</table>
+</body>
+
+</html>-->
+
+<!--HTML id -->
+<!--
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+#t01{
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+#t01 tr:nth-child(odd){
+  background-color:  blueviolet;
+}
+#t01 tr:nth-child(even){
+  background-color:  rgb(177, 24, 62);
+
+}
+#t01 th{
+  background-color: chartreuse;
+  color:red;
+}
+</style>
+</head>
+<body>
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>#1000</td>
+    
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$67</td>
+    
+  </tr>
+</table><br>
+
+  <table id="t01" style="width:100%">
+    <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+    <th>profit</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>#1000</td>
+    <td>#1000</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$67</td>
+    <td>#1000</td>
+  </tr>
+  <tr>
+    <td>april</td>
+    <td>$67</td>
+    <td>#1000</td>
+  </tr>
+  </table>
+
+</body>
+</html> -->
+
+<html>
+  <head>
+    <style>
+    table,th,td{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+      border: 5px solid blue ;
+      border-collapse: collapse;
+      padding: "5px";
+      width:50%;
+      text-align:center;
+    }
+   tr:nth-child(odd)
+   {
+     background-color: cadetblue;
+     
+  }
+    </style>
+    </head>
+  <body>
+    <table>
+    <tr>
+      <th>name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th rowspan="2">riz</th>
+      <td>per</td>
+      <td>77</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <td>per</td>
+      <td>44</td>
+      <td>77</td>
+    </tr>
+<tr>
+  <th rowspan="2">
+    shamee
+  </th>
+  <td>per</td>
+      <td>77</td>
+      <td>77</td>
+
+</tr>
+<tr>
+  <td>per</td>
+      <td>77</td>
+      <td>77</td>
+
+</tr>
+<tr>
+  <tr>
+    <th rowspan="2">
+      shamee
+    </th>
+    <td>per</td>
+        <td>77</td>
+        <td>77</td>
+  
+  </tr>
+  <tr>
+    <td>per</td>
+        <td>77</td>
+        <td>77</td>
+  
+  </tr>
+
+    
+
+    </table>
+  </body>
+  
+</html>
+
+
+

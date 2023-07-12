@@ -1,0 +1,96 @@
+/* 
+.button {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(247, 237, 237);
+    background-color: blueviolet;
+    padding: 5px 3px;
+    margin: 4px 5px;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.grp.button:hover {
+    background-color: blueviolet;
+}
+
+.disable {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.button1 {
+    background-color: chocolate;
+}
+
+.button2 {
+    background-color: rgb(175, 152, 135);
+    box-shadow: 2px 5px 10px 20px cyan;
+    width: 150px;
+}
+
+.button3 {
+    background-color: rgb(42, 102, 121);
+    padding: 14px 20px;
+    border: 6px solid black;
+    width: 150px;
+}
+
+.button3:hover {
+    background-color: chocolate;
+    color: cornsilk;
+    box-shadow: 2px 5px 10px 20px cyan;
+}
+
+.button4 {
+    background-color: rgb(50, 32, 80);
+    border-radius: 50px;
+    width: 150px;
+}
+
+.button5 {
+    background-color: rgb(13, 42, 51);
+    width: 150px;
+} */
+
+.container {
+    position: relative;
+    width: 200px;
+}
+
+.img {
+    width: 200px;
+    height: 100px;
+}
+
+.grp.button {
+    position: absolute;
+    /* text-decoration: none; */
+    text-align: center;
+    border-radius: 4px;
+    color: rgb(247, 237, 237);
+    background-color: blueviolet;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    /* float: left; */
+    border: none;
+    /* width: 300px; */
+    /* height: 200px; */
+    /* border: 2px solid black; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*  
+.grp.button:not(:last-child) {
+    border-bottom: none;
+}*/
+
+.grp.button:hover {
+    background-color: rgb(43, 128, 226);
+    color: rgb(119, 114, 92);
+}

@@ -1,0 +1,35 @@
+/*  
+img {
+   width: 700px; 
+    height: auto;
+    max-width: 600px;
+}*/
+
+
+/* background-size */
+
+
+/*  
+div {
+    background-image: url(../../assets/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover; 
+    background-size: 100% 100%;
+    border: 2px solid black;
+    height: 400px;
+}*/
+
+
+/*  
+body {
+    background-image: url(../../assets/paris.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+@media screen and (min-device-width:500px) {
+    body {
+        background-image: url(../../assets/d.jpg);
+    }
+}*/

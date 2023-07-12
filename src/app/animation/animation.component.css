@@ -1,0 +1,144 @@
+
+.text{
+    width: 200px;
+    background-color: rgb(128, 18, 86); 
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example{
+    form{
+        background-color: rgb(0, 119, 128);
+    }
+    to{
+        background-color:rgb(19, 0, 128);
+    }
+}
+ /*  
+.text1{
+    width: 300px;
+    height: 400px;
+     background-color: black; 
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example{
+    10%{
+        background-color:red;
+    }
+    50%{
+        background-color:yellow;
+    }
+    100%{ background-color:blue;}
+    20%{ background-color: violet;}
+}*/
+/*
+.text2{
+    width: 100px;
+    height: 100px;
+     background-color: black; 
+     position: relative;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-delay: 3s;
+      animation-iteration-count: 2;  
+    animation-iteration-count: infinite; 
+     animation-direction: reverse; 
+ animation-direction: alternate; 
+    animation-direction: alternate-reverse;
+
+}
+@keyframes example1{
+    10%{
+        background-color:red; left: 0px; top: 0px;
+    }
+    50%{
+        background-color:yellow; left: 200px;top: 200px;
+    }
+    100%{ background-color:blue; left: 200px;bottom: 200px;}
+    20%{ background-color: violet;  right: 200px;top: 200px;}
+    
+ } */
+ /*
+*{
+    width: 200px;
+    height: 100px;
+    animation: move 2s infinite;
+    position: relative;
+    background-color: blue;
+}
+.div1{
+    animation-timing-function: linear;
+}
+.div2{
+    animation-timing-function:ease;
+}
+.div3{
+    animation-timing-function: ease-in;
+}
+.div4{
+    animation-timing-function: ease-in-out;
+}
+
+.div5{
+    animation-timing-function: ease-out;
+}
+@keyframes  move{
+    form{
+        left:0px;
+    }
+    to{
+        left: 700px;
+    }
+}  */
+/* 
+.text3{
+    width: 200px;
+    height: 100px;
+    animation-name: move;
+    background-color: burlywood;
+    animation-duration: 5s;
+    position: relative; 
+    animation-fill-mode: forwards;   
+}
+@keyframes move{
+    form{
+        top:0px; background-color:rgb(175, 178, 189);      
+    }
+    to{
+        top:90px;background-color:rgb(0, 30, 128);      
+    }
+    
+} */
+
+.text4{
+    width: 200px;
+    height: 100px;
+    /* animation-name: move; */
+    background-color: burlywood;
+    /* animation-duration: 5s; */
+    position: relative; 
+    /* animation-timing-function: linear; */
+    /* animation-fill-mode: backwards;    */
+    /* animation-fill-mode: both; */
+animation: move 2s linear 5s infinite alternate;
+}
+@keyframes move{
+    /* form{
+        top:0px; background-color:rgb(175, 178, 189);      
+    }
+    to{
+        top:90px;background-color:rgb(0, 30, 128);      
+    } */
+    10%{
+        background-color:red; left: 0px; top: 0px;
+    }
+    50%{
+        background-color:yellow; left: 200px;top: 200px;
+    }
+    100%{ background-color:blue; left: 200px;bottom: 200px;}
+    20%{ background-color: violet;  right: 200px;top: 200px;}
+}
+
+
+
+

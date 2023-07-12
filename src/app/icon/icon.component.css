@@ -1,0 +1,35 @@
+.cc{
+    position: relative;
+    
+}
+.tl{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .tb{
+      position: absolute;
+      bottom: 7px;
+      left: 56px;
+  }
+  .tr{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    left: 150px;
+}
+.tc{
+    position: absolute;
+    top: 100px;
+  text-align: center;
+    left: 60px;
+}
+
+img{
+   width: 200px;
+   height: 200px;
+   opacity: 0.3;
+  
+}

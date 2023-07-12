@@ -1,0 +1,57 @@
+.text{
+    width: 100px;
+transition: width 2s;
+transition: height 4s;
+    background-color: cornflowerblue;
+}
+.text:hover{
+    width: 200px;
+    height: 200px;
+}
+*{
+    width: 100px;
+transition: width 1s;
+transition: height 2s;
+    background-color: cornflowerblue;
+}
+.text2{
+    transition-timing-function: linear;
+}
+.text3{
+    transition-timing-function: ease;
+}
+.text4{
+    transition-timing-function: ease-in;
+}
+.text5{
+    transition-timing-function: ease-out;
+}
+.text6{
+    transition-timing-function: ease-in-out;
+}
+*:hover{
+    width: 400px;
+    height: 400px;
+}
+.ext9{
+   
+transition: width 2s;
+transition: height 4s;
+transition-delay: 8s;
+    background-color: cornflowerblue;
+}
+.ext:hover{
+    width: 200px;
+    height: 200px;
+}
+.ext10{
+   
+transition: width 1s, height 1s, transform 8s;
+
+        background-color: cornflowerblue;
+    }
+    .ext10:hover{
+        width: 200px;
+        height: 200px;
+        transform: rotate(80deg);
+    }

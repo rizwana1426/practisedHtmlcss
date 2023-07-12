@@ -1,0 +1,86 @@
+/*  
+.k
+{
+max-width: 300px;
+box-sizing: border-box;
+outline: none;
+border:3px solid olivedrab;
+
+}
+.k:focus{
+    border:2px solid hotpink;
+    background-color: lightgray;
+}*/
+/*  
+.input{
+    box-sizing: border-box;
+    border: 3px solid black;
+    outline:none;
+  width: 100px;
+  height: 300px;
+    border-radius: 14px;
+    background: url(../../assets/search.png)  ; 
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+transition: ease-in-out;
+    
+}
+.input:focus{
+border:2px solid rgb(15, 66, 117);
+background-color: rgb(102, 140, 179);
+width: 700px;
+}*/
+/*  
+select{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: ghostwhite;
+
+}
+input{
+ width: 200px;
+    border: none;
+    background-color: rgb(125, 125, 148);
+height: 100px;
+}
+*/
+
+*{
+    box-sizing: border-box;
+    background-color: rgb(132, 145, 161);
+}
+input,  textarea{
+    border:3px solid rgb(23, 31, 23) ;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(216, 224, 224);
+    border: none;
+    font-size: 30px;
+    cursor: pointer;  
+}
+textarea{
+    border-width: 300px;
+}
+select{
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(152, 158, 158);
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    
+}
+.submit{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    background-color: rgb(38, 80, 80);
+}

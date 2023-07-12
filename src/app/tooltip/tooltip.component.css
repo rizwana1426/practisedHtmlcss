@@ -1,0 +1,52 @@
+/* webfont
+@font-face{
+    font-family: active;
+    src: url(https://coolsymbol.com/cool-fancy-text-generator.html);
+}
+
+*{
+    font-family: active;
+} */
+
+.tool {
+    display: inline-block;
+    position: relative;
+    border-bottom: 2px dotted red;
+    margin: 250px;
+}
+
+.tip {
+    visibility: hidden;
+    font-size: 20px;
+    color: rgb(202, 196, 196);
+    width: 100px;
+    text-align: center;
+    background-color: rgb(5, 7, 7);
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 150%;
+    /* top:-10px; */
+    /* left:150%; */
+    /* right: 150%; */
+    /* bottom: 80px; */
+    /* top: 100%; */
+    /* left: 50%; */
+    margin-left: -60px;
+}
+
+.tool .tip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tool:hover .tip {
+    visibility: visible;
+}

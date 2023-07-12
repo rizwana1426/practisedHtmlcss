@@ -1,0 +1,27 @@
+div {
+    /* resize: horizontal; */
+    /* resize: vertical; */
+    resize: both;
+    overflow: auto;
+    border: 3px solid black;
+    padding: 3px 4px;
+    width: 200px;
+}
+
+textarea#txt {
+    resize: none;
+}
+
+div.ex1 {
+    border: 3px solid darkslategray;
+    outline: 6px dashed green;
+    outline-offset: 15px;
+    margin: 20px;
+}
+
+div.ex2 {
+    border: 2px solid red;
+    outline: 4px dashed black;
+    outline-offset: 30px;
+    margin: 20px;
+}

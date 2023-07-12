@@ -1,0 +1,49 @@
+/* 
+div.pic{
+    width: 300px;
+    background-color: azure;
+    text-align: center;
+    box-shadow:0px 5px 17px 20px brown;
+   
+
+}
+div.container{
+    padding: 20px;
+   
+} */
+.img{
+width: 300px;
+float: left;
+max-width: 200px;
+}
+.blur{
+    filter: blur(3px);
+}
+.bright
+{
+filter: brightness(250px);
+}
+.color{
+    filter: contrast(20px);
+}
+.color1{
+    filter: drop-shadow(30px);
+}
+.color2{
+    filter: grayscale(100px);
+}
+.color3{
+    filter: hue-rotate(0.5px);
+}
+.color4{
+    filter: invert(40px);
+}
+.color5{
+    filter: opacity(0.5);
+}
+.color6{
+    filter: saturate(0.5);
+}
+.color7{
+    filter: sepia(260px);
+}

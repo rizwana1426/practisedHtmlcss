@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-contaier {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    padding: 25px;
+    text-align: center;
+}
+
+.flex-left {
+    background-color: burlywood;
+    color: cornsilk;
+    flex: 50%;
+    padding: 25px;
+}
+
+.flex-right {
+    background-color: rgb(135, 222, 193);
+    color: rgb(22, 21, 18);
+    flex: 50%;
+    padding: 25px;
+}
+
+@media screen and (max-width:500px) {
+    .flex-contaier {
+        flex-direction: column;
+    }
+}

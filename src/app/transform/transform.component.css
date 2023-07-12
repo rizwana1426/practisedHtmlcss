@@ -1,0 +1,120 @@
+/* 2d */
+.transform{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+    transform: translate(150px, 40px);
+}
+.transform1{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform: rotate(40deg);
+}
+.transform2{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform: rotate(-20deg);
+}
+.transform3{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:scale(10,3);
+  margin: 400px;
+}
+.transform4{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:scale(0.5,0.5);
+  margin: 400px;
+}
+.transform5{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:scaleX(2);
+  margin: 400px;
+}
+.transform6{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:scaleY(2);
+  margin: 400px;
+}
+.transform7{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:skewX(20deg);
+  margin: 400px;
+}
+
+.transform8{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:skewY(20deg);
+  margin: 400px;
+}
+.transform9{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:skewY(40deg,40deg);
+  margin: 400px;
+}
+.transform10{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:skewY(50deg);
+  margin: 400px;
+}
+.transform11{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:matrix(6,0.5,-0.5,10,50,70);
+  margin: 400px;
+}
+/* 3d */
+.transform12{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:rotateX(150deg);
+}
+.transform13{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:rotateY(50deg);
+}
+.transform14{
+    border: 2px solid black;
+    background-color: cadetblue;
+    width: 100px;
+    height: 150%;
+  transform:rotateZ(50deg);
+ 
+}
+
+

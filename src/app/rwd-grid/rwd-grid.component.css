@@ -1,0 +1,154 @@
+            * {
+                box-sizing: border-box;
+            }
+            
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            [class*="col_"] {
+                float: left;
+                padding: 15px;
+            }
+            
+            [class*="col_"] {
+                width: 100px;
+            }
+            
+            .header {
+                background-color: rgb(209, 196, 196);
+                color: black;
+                font-size: 20px;
+                text-align: center;
+            }
+            
+            .menu ul {
+                float: left;
+                color: black;
+                margin: 0px;
+                font-size: 20px;
+                padding: 25px;
+                list-style-type: none;
+            }
+            
+            .menu li {
+                /* border-bottom: outset; */
+                border: 4px solid black;
+                background-color: rgb(125, 125, 175);
+                border-radius: 36px;
+                width: 100px;
+                margin-top: 0px;
+                margin-bottom: 3px;
+                text-align: center;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            }
+            
+            .menuli:hover {
+                background-color: darkgray;
+            }
+            
+            .main {
+                background-color: cyan;
+                color: black;
+                text-align: center;
+                float: left;
+                padding: 25px;
+                /* width: 85%; */
+                height: 400px;
+                font-size: 20px;
+                margin-left: 300px;
+            }
+            
+            .footer {
+                background-color: rgb(73, 78, 78);
+                color: black;
+                text-align: center;
+                font-size: 30px;
+                margin: 400px;
+                height: 80px;
+            }
+            
+            @media only screen and (min-width: 600px) {
+                /* For tablets: */
+                .col-s-1 {
+                    width: 8.33%;
+                }
+                .col-s-2 {
+                    width: 16.66%;
+                }
+                .col-s-3 {
+                    width: 25%;
+                }
+                .col-s-4 {
+                    width: 33.33%;
+                }
+                .col-s-5 {
+                    width: 41.66%;
+                }
+                .col-s-6 {
+                    width: 50%;
+                }
+                .col-s-7 {
+                    width: 58.33%;
+                }
+                .col-s-8 {
+                    width: 66.66%;
+                }
+                .col-s-9 {
+                    width: 75%;
+                }
+                .col-s-10 {
+                    width: 83.33%;
+                }
+                .col-s-11 {
+                    width: 91.66%;
+                }
+                .col-s-12 {
+                    width: 100%;
+                }
+            }
+            
+            @media only screen and (min-width: 768px) {
+                /* For desktop: */
+                .col-1 {
+                    width: 8.33%;
+                }
+                .col-2 {
+                    width: 16.66%;
+                }
+                .col-3 {
+                    width: 25%;
+                }
+                .col-4 {
+                    width: 33.33%;
+                }
+                .col-5 {
+                    width: 41.66%;
+                }
+                .col-6 {
+                    width: 50%;
+                }
+                .col-7 {
+                    width: 58.33%;
+                }
+                .col-8 {
+                    width: 66.66%;
+                }
+                .col-9 {
+                    width: 75%;
+                    /* float: right; */
+                    margin-left: 750px;
+                    margin-top: -11cm;
+                }
+                .col-10 {
+                    width: 83.33%;
+                }
+                .col-11 {
+                    width: 91.66%;
+                }
+                .col-12 {
+                    width: 100%;
+                }
+            }

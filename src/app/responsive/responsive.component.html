@@ -1,0 +1,160 @@
+<!--  
+<html>
+    <head>
+        <meta name="viewport" content="width=deice-width, initial-scale=1">
+        <style>
+* {
+  box-sizing: border-box;
+}
+.main{
+    float: left;
+    margin-top: 9;
+}
+.mt
+{
+    background-color: darkred;
+    border-bottom: darkslateblue;
+    width: 0px;
+    padding: 55px;
+}
+.right{
+    float: left;
+    background-color: rgb(35, 206, 72);
+    width: 600px;
+    padding: 55px;
+    color: deepskyblue;
+
+}
+.next{
+    background-color: rgb(17, 111, 148);
+    width: 700px;
+    padding: 5px;
+    color: deepskyblue;
+}
+
+@media only screen and (max-width: 600px) {
+    .right,.next{
+        width: 100px;
+    }}
+ @media only screen and (max-width: 600px) {
+    .main,.mt,.right{
+        width: 100px;
+    }}
+
+
+        </style>
+        </head>
+   
+    <body style="font-family: 'Times New Roman', Times, serif;">
+  <div style="background-color: dimgrey;">
+    <h1>Cinque Terre</h1>
+    <h3>Resize the browser window</h3>
+  </div>
+  <div style="overflow: visible">
+  <div class="main">
+      <div class="mt">The Walk</div>
+      <div class="mt">Transport</div>
+      <div class="mt">History</div>
+      </div>
+    </div>
+    <div class="right">
+
+        <h2>The Walk</h2>
+        <p>The walk from Monterosso to Riomaggiore will take you approximately 
+            two hours, give or take 
+            an hour depending on the weather conditions and your physical shape.</p>
+        <img src="assets/d.jpg" style="width: 140px ,height: 170px">
+    </div>
+
+<div class="next">
+    <h2>What?</h2>
+    <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+    <h2>Where?</h2>
+    <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+    <h2>Price?</h2>
+    <p>The Walk is free!</p>
+ 
+</div>
+    </body>
+</html>
+-->
+<!--  
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <img src="assets/d.jpg" media="max-width:600px">
+    <picture>
+        <source srcset="assets/d.jpg" media="max-width:auto">
+           
+    </picture>
+</html>-->
+<!-- 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>Show Different Images Depending on Browser Width</h2>
+<p>Resize the browser width and the image will change at 600px and 1500px.</p>
+
+<picture>
+  <source srcset="assets/d.jpg" media="(max-width: 600px)">
+  <source srcset="assets/d6.jpg" media="(max-width: 1500px)">
+  <source srcset="assets/smlies.jpg">
+  <img src="assets/j.jpeg" alt="Flowers" style="width:auto;">
+</picture>
+
+<h1 style="font-size:10vw;">Responsive Text</h1>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+</body>
+</html> -->
+
+<!-- w3 css -->
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="w3-container w3-green">
+  <h1>W3Schools Demo</h1> 
+  <p>Resize this responsive page!</p> 
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-third">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>It is the most populous city in the United Kingdom,
+    with a metropolitan area of over 13 million inhabitants.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p> 
+    <p>The Paris area is one of the largest population centers in Europe,
+    with more than 12 million inhabitants.</p>
+  </div>
+  
+  <div class="w3-third">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <p>It is the center of the Greater Tokyo Area,
+    and the most populous metropolitan area in the world.</p>
+  </div>
+</div>
+
+  </body>
+</html>

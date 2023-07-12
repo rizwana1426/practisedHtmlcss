@@ -1,0 +1,52 @@
+/* basic media-queries */
+
+
+/*  
+body {
+    background-color: pink;
+    height: 600px;
+}
+
+@media screen and (min-width:700px) {
+    body {
+        background-color: rgb(111, 88, 133);
+    }
+}*/
+
+.wrapper {
+    overflow: auto;
+}
+
+#main {
+    margin-left: 20px;
+}
+
+#leftside {
+    float: none;
+    /* float: left; */
+    width: auto;
+}
+
+#menulist {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuitem {
+    background-color: cornflowerblue;
+    color: crimson;
+    text-align: center;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+}
+
+@media screen and (min-width:700px) {
+    #leftside {
+        width: 200px;
+        float: left;
+    }
+    #main {
+        margin-left: 216px;
+    }
+}

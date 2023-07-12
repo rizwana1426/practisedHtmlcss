@@ -1,0 +1,61 @@
+/* body{ 
+    counter-reset: creation;
+
+}
+h2::before{
+    counter-increment: creation;
+    content: "creation" counter(creation)":";
+}*/
+/* 
+body{ 
+    counter-reset: creation;
+    font-size: 20px;
+}
+
+h1{
+   counter-reset: subcreation;  
+}
+h2{
+    text-align: justify;
+   word-spacing: 20px;
+}
+h1::before{
+    counter-increment: creation;
+    content: "creation" counter(creation)".""\205f";
+}
+h2::before{
+    counter-increment: subcreation;
+    content: counter(creation) "." counter(subcreation)"\20"; 
+}
+ */
+ *{
+     box-sizing: border-box;
+     background-color: tan;
+     border-radius:4px ;
+     width: 500px;
+   overflow: hidden;
+ }
+ ol{
+     counter-reset: create;
+     list-style-type: none;
+     font-size: 30px;
+ }
+h1{
+     font-size: 60px;
+     background-color: rgb(170, 179, 182);
+     color: rgb(211, 35, 35);
+     text-align: center;
+     font-weight: 300;
+
+ }
+ li{
+    font-size: 20px;
+    background-color: rgb(32, 35, 71);
+    color: palegreen;
+    width: 200px;
+    border:2px solid black ;
+ }
+ li::before{
+     counter-increment:create ;
+     content: counters(create,".")"\a0\a0";
+ }

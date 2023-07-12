@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: blue;
+    grid-gap: 10px;
+    padding: 15px;
+}
+
+.grid-container>div {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item4 {
+    /* grid-area: 1 / 2 /5 /6; */
+    grid-area: 2 / 2 / span 3 / span 4;
+}
